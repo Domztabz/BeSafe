@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_self_assessment"
+    app:startDestination="@id/discloserFragment">
+
+    <fragment
+        android:id="@+id/coughFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.CoughFragment"
+        android:label="fragment_cough"
+        tools:layout="@layout/fragment_cough" >
+        <action
+            android:id="@+id/action_coughFragment_to_difficultyBreathingFragment"
+            app:destination="@id/difficultyBreathingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/obesityFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.ObesityFragment"
+        android:label="fragment_obesity"
+        tools:layout="@layout/fragment_obesity" >
+        <action
+            android:id="@+id/action_obesityFragment_to_decreasedImmunityFragment"
+            app:destination="@id/decreasedImmunityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feverFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.FeverFragment"
+        android:label="fragment_fever"
+        tools:layout="@layout/fragment_fever" >
+        <action
+            android:id="@+id/action_feverFragment_to_riskFragment"
+            app:destination="@id/riskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/over65Fragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.Over65Fragment"
+        android:label="fragment_over65"
+        tools:layout="@layout/fragment_over65" >
+        <action
+            android:id="@+id/action_over65Fragment_to_diabetesFragment"
+            app:destination="@id/diabetesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/discloserFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.DiscloserFragment"
+        android:label="fragment_discloser"
+        tools:layout="@layout/fragment_discloser" >
+        <action
+            android:id="@+id/action_discloserFragment_to_coughFragment"
+            app:destination="@id/coughFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/CVorHDFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.CVorHDFragment"
+        android:label="fragment_c_vor_h_d"
+        tools:layout="@layout/fragment_c_vor_h_d" >
+        <action
+            android:id="@+id/action_CVorHDFragment_to_obesityFragment"
+            app:destination="@id/obesityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/decreasedImmunityFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.DecreasedImmunityFragment"
+        android:label="fragment_decreased_immunity"
+        tools:layout="@layout/fragment_decreased_immunity" >
+        <action
+            android:id="@+id/action_decreasedImmunityFragment_to_pregnancyFragment"
+            app:destination="@id/pregnancyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/diabetesFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.DiabetesFragment"
+        android:label="fragment_diabetes"
+        tools:layout="@layout/fragment_diabetes" >
+        <action
+            android:id="@+id/action_diabetesFragment_to_CVorHDFragment"
+            app:destination="@id/CVorHDFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/difficultyBreathingFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.DifficultyBreathingFragment"
+        android:label="fragment_difficulty_breathing"
+        tools:layout="@layout/fragment_difficulty_breathing" >
+        <action
+            android:id="@+id/action_difficultyBreathingFragment_to_feverFragment"
+            app:destination="@id/feverFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pregnancyFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.PregnancyFragment"
+        android:label="fragment_pregnancy"
+        tools:layout="@layout/fragment_pregnancy" >
+        <action
+            android:id="@+id/action_pregnancyFragment_to_respiratoryFragment"
+            app:destination="@id/respiratoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/respiratoryFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.RespiratoryFragment"
+        android:label="fragment_respiratory"
+        tools:layout="@layout/fragment_respiratory" />
+    <fragment
+        android:id="@+id/riskFragment"
+        android:name="ke.co.visualdiagnoser.besafe.ui.home.newHome.selfassessment.RiskFragment"
+        android:label="fragment_risk"
+        tools:layout="@layout/fragment_risk" >
+        <action
+            android:id="@+id/action_riskFragment_to_over65Fragment"
+            app:destination="@id/over65Fragment" />
+    </fragment>
+</navigation>

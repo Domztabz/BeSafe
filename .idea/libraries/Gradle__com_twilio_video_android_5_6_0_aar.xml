@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.twilio:video-android:5.6.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a8c52fdb3f3256ab8bd8c5e499960dc/jetified-video-android-5.6.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a8c52fdb3f3256ab8bd8c5e499960dc/jetified-video-android-5.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a8c52fdb3f3256ab8bd8c5e499960dc/jetified-video-android-5.6.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9a8c52fdb3f3256ab8bd8c5e499960dc/jetified-video-android-5.6.0/jars/libs/libwebrtc.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twilio/video-android/5.6.0/2bd021a86d4026e6fd078618450525ff4f946cec/video-android-5.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twilio/video-android/5.6.0/680c81234b7c22c6133a57b3d90452229e8154ed/video-android-5.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

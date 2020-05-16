@@ -1,0 +1,353 @@
+<resources>
+
+    <!--    for production-->
+    <!--    moved to src/release/res/values/strings.xml <string name="ble_uuid">B82AB3FC-1595-4F6A-80F0-FE094CC218F9</string>-->
+
+    <string name="generic_error">Please try again later</string>
+    <string name="generic_internet_error">Please check your internet connection</string>
+
+    <string name="dialog_uploading_message">Your BeSafe information is currently being uploaded.\n\nPlease do not close the app.</string>
+    <string name="dialog_error_uploading_message">An error occurred while uploading your information, please try again.</string>
+    <string name="dialog_error_uploading_positive">Try again</string>
+    <string name="dialog_error_uploading_negative">Cancel</string>
+
+
+    <string name="title_help">Help</string>
+
+    <string name="share_this_app_content">Join me in stopping the spread of COVID-19! Download BeSafe, an app from Visual Diagnoser. #COVID19 #coronaviruskenya #stayhomesavelives</string>
+    <string name="share_this_app_title">Help stop the spread of COVID-19!</string>
+    <string name="share_this_app_content_html">Join me in stopping the spread of COVID-19! Download BeSafe, an app from Visual Diagnoser. #COVID19 #coronaviruskenya #stayhomesavelives</string>
+
+    <string name="service_ok_title">BeSafe is active</string>
+    <string name="service_ok_body"> Keep BeSafe active when you leave home or are in public places.</string>
+
+    <string name="service_not_ok_title">Make sure BeSafe is active</string>
+    <string name="service_not_ok_body">BeSafe is currently inactive. Make sure it’s active before you leave home and when in public places.</string>
+    <string name="service_not_ok_action">Check app now</string>
+
+    <!-- OnBoarding Intro -->
+    <string name="intro_headline">Together we can stop the spread of COVID-19</string>
+    <string name="intro_content">BeSafe has been developed by Visual Diagnoser to help keep the community safe from the spread of coronavirus.\n\nBeSafe will securely note contact that you have with other users of the app. This will allow you to know if you have been in close contact with someone who has tested positive to the virus and either go to quarantine or be tested.\n\nTogether we can help stop the spread and stay healthy.</string>
+    <!--    <string name="intro_content">BeSafe has been developed by the Visual Diagnoser to help keep the community safe from the spread of coronavirus.\n\nBeSafe will securely note contact that you have with other users of the app. This will allow state and territory health officials to contact you, if you have been in close contact with someone who has tested positive to the virus.\n\nTogether we can help stop the spread and stay healthy.</string>-->
+    <string name="intro_disclaimer_data">Please head to <a href="https://www.australia.gov.au/">aus.gov.au</a> for the latest Coronavirus news</string>
+    <string name="intro_button">I want to help</string>
+
+    <!-- OnBoarding How it works -->
+    <string name="how_it_works_headline">How BeSafe works</string>
+    <string name="how_it_works_content">Bluetooth® signals are used to determine when you\'re near another BeSafe user.\n\nEvery instance of close contact between you and other BeSafe users is noted to create close contact information. The information is encrypted and only stored in your phone.\n\nIf you test positive to COVID-19 as a BeSafe user, a we will assist with voluntary upload of your close contact information to a highly secure information storage system\n\nWe can also contact you if you came in close contact with another BeSafe user who tested positive.</string>
+    <string name="how_it_works_consent">Your consent will always be requested if health tracing is required.</string>
+    <string name="how_it_works_privacy">Read our <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">Privacy Notice</a></string>
+    <string name="how_it_works_terms_conditions">Read our <a href="https://www.covidsafe.gov.au/terms-and-conditions">Terms and conditions</a></string>
+    <string name="how_it_works_button">Next</string>
+
+    <!-- OnBoarding Data Privcay -->
+    <string name="data_privacy_headline">Registration and privacy</string>
+    <string name="data_privacy_content">It is important that you read the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> before you register for BeSafe.\n\nIf you are under 16 years of age, your parent/guardian must also read the <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a>.\n\nUse of BeSafe is completely voluntary. You can install or delete the application at any time.  To register for BeSafe, you will need to enter a name, mobile number, age range and your county.\n\nInformation you submit when you register, and information about your use of BeSafe will be collected and stored on a highly secure server.\n\nBeSafe will not collect your location information.\n\nBeSafe will note the time of contact and an anonymous ID code of other BeSafe users you come into contact with.\n\nOther BeSafe users you come into contact with will record an anonymous ID code and the time of contact with your device.\n\nIf another user tests positive to COVID-19, they may upload their contact information and we may contact you for tracing purposes.\n\nYour registration details will only be used or disclosed for contact tracing and for the proper and lawful functioning of BeSafe.\n\nSee the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> for further details about your rights about your information and how it will be handled and shared.</string>
+    <!--    <string name="data_privacy_content">It is important that you read the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> before you register for BeSafe.\n\nIf you are under 16 years of age, your parent/guardian must also read the <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a>.\n\nUse of BeSafe is completely voluntary. You can install or delete the application at any time.  To register for BeSafe, you will need to enter a name, mobile number, age range and your county.\n\nInformation you submit when you register, and information about your use of BeSafe will be collected and stored on a highly secure server.\n\nBeSafe will not collect your location information.\n\nBeSafe will note the time of contact and an anonymous ID code of other BeSafe users you come into contact with.\n\nOther BeSafe users you come into contact with will record an anonymous ID code and the time of contact with your device.\n\nIf another user tests positive to COVID-19, they may upload their contact information and a state or territory health official may contact you for tracing purposes.\n\nYour registration details will only be used or disclosed for contact tracing and for the proper and lawful functioning of BeSafe.\n\nMore information is available at the <a href="https://www.health.gov.au/">Australian Government Department of Health website</a>.\n\nSee the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> for further details about your rights about your information and how it will be handled and shared.</string>-->
+    <string name="data_privacy_button">Next</string>
+
+    <!-- Onboarding Registration Consent -->
+    <string name="registration_consent_headline">Registration consent</string>
+    <string name="registration_consent_content">I consent to Visual Diagnoser collecting:</string>
+    <!--    <string name="registration_consent_first_paragraph">My registration information to allow contact tracing by state and territory health officials.</string>-->
+    <string name="registration_consent_first_paragraph">My registration information to allow contact tracing</string>
+    <string name="registration_consent_second_paragraph">My contact information from other BeSafe users after they test positive for COVID-19.</string>
+    <string name="registration_consent_checkbox">I consent.</string>
+    <string name="registration_consent_button">I agree</string>
+
+    <!-- OnBoarding Personal details -->
+    <string name="personal_details_headline">Enter your details</string>
+    <string name="personal_details_name_title">Full name</string>
+    <string name="personal_details_name_hint">Firstname Lastname</string>
+    <string name="personal_details_age_title">Age</string>
+    <string name="personal_details_age_hint">Age range</string>
+    <string name="personal_details_post_code">Postcode</string>
+    <string name="personal_details_post_code_hint">e.g. 2000</string>
+    <string name="personal_details_disclaimer"><a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a></string>
+    <string name="personal_details_post_code_dialog_title">Postcode</string>
+    <string name="invalid_post_code">Invalid postcode</string>
+    <string name="invalid_age">Age cannot be empty</string>
+    <string name="invalid_name">Invalid name</string>
+    <string name="personal_details_age_dialog_title">Select your age</string>
+    <string name="personal_details_dialog_ok">Select</string>
+
+    <string name="personal_details_button">Continue</string>
+    <string-array name="personal_details_age_array">
+        <item>8:0–15</item>
+        <item>22:16–29</item>
+        <item>35:30–39</item>
+        <item>45:40–49</item>
+        <item>55:50–59</item>
+        <item>65:60–69</item>
+        <item>75:70–79</item>
+        <item>85:80–89</item>
+        <item>95:90+</item>
+    </string-array>
+
+
+    <!-- OnBoarding Under Sixteen -->
+    <string name="under_sixteen_headline">You need the consent of your parent/guardian to proceed</string>
+    <string name="under_sixteen_content">I confirm my parent or guardian consents to Visual Diagnoser collecting:</string>
+    <string name="under_sixteen_first_paragraph">My registration information to allow contact tracing by state and territory health officials.</string>
+    <string name="under_sixteen_second_paragraph">My contact information from other BeSafe users after they test positive for COVID-19.</string>
+    <string name="under_sixteen_further_checkbox">I confirm.</string>
+    <string name="under_sixteen_button">Continue</string>
+
+
+    <!-- OnBoarding Enter Number -->
+    <string name="enter_number_headline">Enter your mobile number</string>
+    <string name="invalid_phone_number">Invalid phone number.</string>
+    <string name="enter_number_prefix">+254</string>
+    <string name="oz_phone_number"><a href="https://www.covidsafe.gov.au/help-topics.html#verify-mobile-number-pin">Use an Australian phone number.</a></string>
+    <string name="enter_number_content">We’ll send you a six-digit PIN to verify your mobile number.</string>
+    <string name="enter_number_relative">Trying to register on behalf of a friend or relative?\n\nThey will need to register using their own device and phone number so that BeSafe can work for them. </string>
+    <string name="enter_number_button">Get PIN</string>
+
+    <!-- OnBoarding Enter PIN -->
+    <string name="enter_pin_headline">Enter the PIN sent to %s%s</string>
+    <string name="enter_pin_wrong_number">Is this mobile number wrong?</string>
+    <string name="enter_pin_timer_expire">Your PIN will expire in &#160;</string>
+    <string name="wrong_ping_number"> Wrong PIN entered</string>
+    <string name="enter_pin_resend_pin">Resend PIN</string>
+    <string name="pin_issue"><a href="https://www.covidsafe.gov.au/help-topics.html#verify-mobile-number-pin">Issues receiving your PIN?</a></string>
+    <string name="enter_pin_button">Verify</string>
+
+    <!-- OnBoarding Permission -->
+    <string name="permission_headline">App permissions</string>
+    <string name="permission_content">BeSafe needs Bluetooth® and notifications enabled to work.\n\nSelect ‘Proceed’ to enable:\n\n1. Bluetooth®\n\n2. Location Permissions\n\n3. Battery Optimiser\n\n\nAndroid needs Location Permissions for Bluetooth® to work.</string>
+    <string name="permission_button">Proceed</string>
+    <string name="permission_location_rationale">Android requires location access to enable Bluetooth® functions for BeSafe. BeSafe cannot work properly without it</string>
+
+    <!-- OnBoarding Permission Success-->
+    <string name="permission_success_headline">You\'ve successfully registered</string>
+    <string name="permission_success_content">1. Keep your phone with you when you leave home.\n\n2. Keep the app running.\n\n3. Keep Bluetooth® on.</string>
+    <string name="permission_success_warning">Keep push notifications on for BeSafe so we can notify you quickly if the app isn\'t working properly.</string>
+    <string name="permission_success_button">Continue</string>
+
+    <!-- Home -->
+    <string name="home_header_active_title">BeSafe is active.\nNo further action is required.</string>
+    <string name="home_header_inactive_title">BeSafe is not active.\nCheck your permissions.</string>
+    <string name="home_header_uploaded_title">Thank you for helping stop the spread of COVID-19. Your information has been uploaded.</string>
+    <string name="home_bluetooth_permission">Bluetooth®: %s</string>
+    <string name="home_non_battery_optimization_permission">Battery optimization: %s</string>
+    <string name="home_location_permission">Location: %s</string>
+    <string name="home_push_notification_permission">Push Notification: %s</string>
+    <string name="home_permission_on">On</string>
+    <string name="home_permission_off">Off</string>
+    <string name="home_setup_incomplete_title">Check\npermissions</string>
+    <string name="home_setup_incomplete_subtitle">BeSafe needs permission to access these features.</string>
+    <string name="home_setup_help">Help</string>
+    <string name="home_app_permission_status_title">Check your permissions</string>
+    <string name="home_app_permission_status_subtitle">BeSafe won\'t work without these permissions. </string>
+    <string name="home_been_tested_title">Has a health official asked you to upload your data?</string>
+    <string name="home_data_uploaded">Register for self isolation</string>
+    <string name="home_data_uploaded_message">Help stop the spread of COVID-19 and track your symptoms.</string>
+    <string name="home_data_uploaded_button">Register</string>
+    <string name="home_data_has_been_uploaded">Your data has been uploaded</string>
+    <string name="home_data_has_been_uploaded_message">You\’re helping stop the spread of COVID-19 by uploading your data daily while in self-isolation.</string>
+
+    <string name="home_set_complete_disclaimer_title">Let\'s stop the spread of COVID-19.</string>
+    <string name="home_set_complete_disclaimer_content">For more help, see our <a href="https://www.covidsafe.gov.au/help-topics.html">FAQ</a>.</string>
+    <string name="home_set_complete_external_link_share_title">Share BeSafe</string>
+
+    <string name="home_set_complete_external_link_share_content">Invite others to join. Together, we’re stronger.</string>
+    <string name="home_set_complete_external_link_news_title">Latest news and updates</string>
+    <string name="home_set_complete_external_link_news_url">https://www.australia.gov.au</string>
+    <string name="home_set_complete_external_link_self_isolation_register_url">https://covid-form.service.gov.au</string>
+    <string name="home_set_complete_external_link_news_content">Head to aus.gov.au for the latest Coronavirus news.</string>
+    <string name="home_set_complete_external_link_app_title">Get the Coronavirus app</string>
+    <string name="home_set_complete_external_link_app_content">Download the government app for the latest news and advice.</string>
+
+    <string name="home_set_complete_external_link_been_contacted_title">Has a health official contacted you?</string>
+    <string name="home_set_complete_external_link_tested_positive_title">Have you tested positive? \nYou can only upload your information if you have tested positive. </string>
+    <string name="home_set_complete_external_link_tested_positive_short__title">Have you tested positive? \nHelp your community by reporting your diagnosis </string>
+
+    <string name="home_set_complete_external_link_been_contacted_content">You can only upload your information if you have tested positive.</string>
+
+    <string name="home_set_complete_external_link_tested_positive_content">Help your community by reporting your diagnosis. Your report will be anonymous and your identity will be protected. </string>
+
+    <string name="home_set_complete_external_link_app_url">https://www.health.gov.au/resources/apps-and-tools/coronavirus-australia-app</string>
+    <string name="home_version_number">Version Number:%s</string>
+    <string name="action_report_an_issue">Report an issue</string>
+
+    <!-- Upload flow-->
+    <string name="upload_answer_yes">Yes</string>
+    <string name="upload_answer_no">No</string>
+
+    <string name="upload_step_1_header">Is a health official asking you to upload your information?</string>
+    <string name="upload_step_1_body">Only if you test positive to COVID-19 will a state or territory health official contact you to assist with voluntary upload of your information.\n\nOnce you press ‘Yes’ you’ll need to provide consent to upload your information. </string>
+    <string name="home_set_complete_external_link_tested_positive_content2">Only if you test positive to COVID-19 should you contact us to assist with voluntary upload of your information.\n\nOnce you press ‘Yes’ you’ll need to provide consent to upload your information. </string>
+
+    <string name="upload_step_4_header">Upload consent</string>
+    <string name="upload_step_4_sub_header">Unless you consent, your close contact information will not be uploaded.\n\nIf you consent, your close contact information will be uploaded and shared with state or territory health officials for contact tracing purposes.\n\nRead the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> for further details.</string>
+    <string name='upload_consent'>I consent to upload my information</string>
+    <string name="upload_step_verify_pin_header">Upload your information</string>
+    <string name="upload_step_verify_pin_sub_header">A state or territory health official will send a PIN to your device via text message. Enter it below to upload your information.</string>
+    <string name="action_verify_upload_pin">Upload my information</string>
+    <string name="action_verify_invalid_pin">Invalid PIN, please ask the health official to send you another PIN.</string>
+
+    <string name="upload_finished_header">Thank you for helping to stop the spread of COVID-19!</string>
+    <string name="upload_finished_sub_header">You have successfully uploaded your information to the BeSafe highly secure storage system.\n\nState or territory health officials will notify other BeSafe users that have recorded instances of close contact with you. Your identity will remain anonymous to other users.</string>
+
+    <string name="action_continue">Continue</string>
+    <string name="action_agree">I agree</string>
+    <string name="action_got_it">Got it</string>
+
+    <string name="action_upload_your_data">Upload your data</string>
+    <string name="action_upload_done">Continue</string>
+
+    <string name="upload_failed">Upload failed</string>
+    <string name="upload_your_data_title">Upload your data</string>
+    <string name="upload_your_data_description">Please upload your data today to help stop the spread of COVID-19</string>
+    <string name="upload_data_action">Upload data now</string>
+
+    <!-- Self isolation activity -->
+    <string name="activity_self_isolation_headline">Thank you! You have helped to stop the spread of COVID-19!</string>
+    <string name="activity_self_isolation_content">You’ve kept others safe while helping to stop the spread of COVID-19 during self-isolation.</string>
+    <string name="activity_self_isolation_button">Continue</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="difficulty_breathing">
+        "<big><b>Are you having difficulty breathing?</b></big>\n\n"
+
+        "<big><b>Please use the following as a guide?</b></big>\n\n"
+
+        "<b>No / Mild:</b> Easy to breathe, no wheezing, usual activities(such as walking around the house) are not affected.\n"
+        "<b>Moderate:</b> Mild wheezing, some chest tightness, beginning to affect activities such as working, sleeping, or playing. Coughing may make you slightly out of breath, but you can catch your breath easily when you stop coughing.\n"
+        "<b>Severe:</b> Interruption of usual activities, such as difficulty talking, eating, or walking. Breathing may be hard and fast. You may see bluish coloration in lips or fingertips. You feel persistent pressure in the chest, which might worsen with breathing. You may see ribs while breathing, feel lethargic or confused.\n"
+    </string>
+
+    <string name="mild">
+        <b>No / Mild:</b> Easy to breathe, no wheezing, usual activities(such as walking around the house) are not affected.
+
+    </string>
+
+    <string name="moderate">
+        <b>Moderate:</b> Mild wheezing, some chest tightness, beginning to affect activities such as working, sleeping, or playing. Coughing may make you slightly out of breath, but you can catch your breath easily when you stop coughing.
+    </string>
+
+    <string name="severe">
+        "<b>Severe:</b> Interruption of usual activities, such as difficulty talking, eating, or walking. Breathing may be hard and fast. You may see bluish coloration in lips or fingertips. You feel persistent pressure in the chest, which might worsen with breathing. You may see ribs while breathing, feel lethargic or confused."
+    </string>
+
+
+    <string name="ongoing_community">
+        " \u2022 There is ongoing community spread of the virus in your local area or an area that you traveled to within 14 days of symptom onset"
+    </string>
+
+    <string name="healthcare_worker">
+        " \u2022 You are a healthcare worker who has cared for a person with suspected or confirmed diagnosis of COVID-19 within 14 days of symptom onset"
+    </string>
+
+    <string name="close_contact">
+        " \u2022 You have been in close contact with a person with confirmed diagnosis of COVID-19"
+    </string>
+
+    <string name="cvd_hd">
+        " \u2022 You have a history of prior heart attack, stroke, or heart failure"
+    </string>
+
+    <string name="steroids">
+        " \u2022 You take long term oral steroids"
+    </string>
+
+    <string name="autoimmune">
+        " \u2022 You have an autoimmune disease such as lupus or rheumatoid arthritis"
+    </string>
+    <string name="cancer">
+        " \u2022 You have a history of cancer"
+    </string>
+    <string name="hiv">
+        " \u2022 You have HIV/AIDS"
+    </string>
+
+    <string name="kidney_liver">
+        " \u2022 You have chronic kidney or liver disease"
+    </string>
+
+    <string name="transplant">
+        " \u2022 You are on medications after an organ transplant"
+    </string>
+
+    <string name="doctor">
+        " \u2022 Your doctor has told you that your medications may cause decreased immunity or has told you that you have decreased immunity for reasons not listed above"
+    </string>
+
+    <string name="asthma">
+        " \u2022 You have a history of asthma"
+    </string>
+    <string name="copd">
+        " \u2022 You have a history of chronic obstructive pulmonary disease(COPD) or emphysema"
+    </string>
+    <string name="bronchitis">
+        " \u2022 You have a history of chronic bronchitis"
+    </string>
+
+    <string name="interstitial">
+        " \u2022 You have a history of interstitial lung disease"
+    </string>
+
+    <string name="other">
+        " \u2022 You have a history of a chronic lung disease not listed above"
+    </string>
+    <string name="invalid_county">Choose your county</string>
+    <string name="personal_details_county_hint">Your County</string>
+    <string name="in_close_contact_your_data_title">Contact Ministry of Health</string>
+    <string name="in_close_contact_data_description">Please contact the state officials to help stop the spread of corona virus. You have been in close contact with a positive COVID-19 case in the past 2 weeks. You are advised to go to quarantine</string>
+
+    <string-array name="counties">
+
+        <item>Baringo</item>
+        <item>Bomet</item>
+        <item>Bungoma</item>
+        <item>Busia</item>
+        <item>Elgeyo Marakwet</item>
+        <item>Embu</item>
+        <item>Garissa</item>
+        <item>Homa Bay</item>
+        <item>Isiolo</item>
+        <item>Kajiado</item>
+        <item>Kakamega</item>
+        <item>Kericho</item>
+        <item>Kiambu</item>
+        <item>Kilifi</item>
+        <item>Kirinyaga</item>
+        <item>Kisii</item>
+        <item>Kisumu</item>
+        <item>Kitui</item>
+        <item>Kwale</item>
+        <item>Laikipia</item>
+        <item>Lamu</item>
+        <item>Machakos</item>
+        <item>Makueni</item>
+        <item>Mandera</item>
+        <item>Meru</item>
+        <item>Migori</item>
+        <item>Marsabit</item>
+        <item>Mombasa</item>
+        <item>Muranga</item>
+        <item>Nairobi</item>
+        <item>Nakuru</item>
+        <item>Nandi</item>
+        <item>Narok</item>
+        <item>Nyamira</item>
+        <item>Nyandarua</item>
+        <item>Nyeri</item>
+        <item>Samburu</item>
+        <item>Siaya</item>
+        <item>Taita Taveta</item>
+        <item>Tana River</item>
+        <item>Tharaka Nithi</item>
+        <item>Trans Nzoia</item>
+        <item>Turkana</item>
+        <item>Uasin Gishu</item>
+        <item>Vihiga</item>
+        <item>Wajir</item>
+        <item>West Pokot</item>
+
+    </string-array>
+
+</resources>

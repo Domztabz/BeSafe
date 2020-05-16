@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+
+    tools:context=".ui.home.newHome.ShareFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/light_green"
+                android:layout_margin="8dp"
+                app:cardElevation="16dp"
+                android:id="@+id/permissions_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                app:layout_constraintTop_toBottomOf="@+id/header_barrier"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardMaxElevation="2dp"
+                card_view:cardUseCompatPadding="true"
+                card_view:contentPadding="0dp">
+
+                <LinearLayout
+                    android:visibility="visible"
+                    android:id="@+id/home_setup_incomplete_permissions_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/keyline_4"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:backgroundTint="@color/colorBlue_"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/logo2"
+                        android:src="@drawable/ic_upload_error"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/home_header_setup_incomplete_header"
+                        style="?textAppearanceHeadline2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/keyline_4"
+                        android:layout_marginTop="@dimen/keyline_0"
+                        android:layout_marginRight="@dimen/keyline_4"
+                        android:includeFontPadding="false"
+                        android:text="@string/home_header_inactive_title"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/permissions_card_subtitle"
+                        style="?textAppearanceBody1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/keyline_4"
+                        android:layout_marginTop="@dimen/keyline_4"
+                        android:layout_marginRight="@dimen/keyline_4"
+                        android:layout_marginBottom="@dimen/keyline_4"
+                        android:includeFontPadding="false"
+                        android:text="@string/home_app_permission_status_subtitle" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/slack_black_3" />
+
+                    <ke.co.visualdiagnoser.besafe.ui.home.view.PermissionStatusCard
+                        android:id="@+id/bluetooth_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:title="@string/home_bluetooth_permission" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/slack_black_3" />
+
+                    <ke.co.visualdiagnoser.besafe.ui.home.view.PermissionStatusCard
+                        android:id="@+id/location_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:title="@string/home_location_permission" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/slack_black_3" />
+
+                    <ke.co.visualdiagnoser.besafe.ui.home.view.PermissionStatusCard
+                        android:id="@+id/battery_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:title="@string/home_non_battery_optimization_permission" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/slack_black_3" />
+
+                    <ke.co.visualdiagnoser.besafe.ui.home.view.PermissionStatusCard
+                        android:id="@+id/push_card_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:title="@string/home_push_notification_permission" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/keyline_4"
+                    android:id="@+id/home_header_setup_complete_header_active"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="420dp">
+                    <ImageView
+                        android:backgroundTint="@color/colorBlue_"
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/logo"
+                        android:src="@drawable/illustration_data_uploaded"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"/>
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_marginBottom="8dp"
+                        android:id="@+id/home_header_setup_complete_header"
+                        style="?textAppearanceHeadline2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/keyline_4"
+                        android:layout_marginTop="@dimen/keyline_4"
+                        android:layout_marginRight="@dimen/keyline_4"
+                        android:includeFontPadding="true"
+                        android:text="@string/home_header_active_title"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</FrameLayout>

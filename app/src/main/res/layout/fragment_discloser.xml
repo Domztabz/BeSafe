@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.newHome.selfassessment.DiscloserFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_alignParentTop="true"
+            android:id="@+id/toolbar"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+            <ImageButton
+                android:id="@+id/go_back_button"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"
+                android:src="@drawable/ic_keyboard_arrow_left_green_24dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"/>
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coronavirus"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:text="Coronavirus Risk Assessment."
+            android:id="@+id/title"
+            android:layout_margin="20dp"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:textSize="16sp"
+            android:text="Based on CDC guidelines, we have prepared a risk assessment to help you determine if you should seek evaluation by a doctor"
+            android:id="@+id/based"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="16sp"
+            android:text="The assessment should take less than two minutes and will provide you with personalized recommendations based on your answer"
+            android:id="@+id/assessment"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/based"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="16sp"
+            android:text="By selecting begin,"
+            android:id="@+id/by_selecting"
+            android:layout_margin="20dp"
+            android:layout_below="@+id/assessment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:id="@+id/certify_ll"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/by_selecting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/check"
+                android:padding="4dp"
+                android:layout_marginEnd="12dp"
+                android:background="@android:color/white"
+                android:src="@drawable/ic_check_circle_primary_color_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="16sp"
+                android:text="I certify that any symptoms or conditions I report are true."
+                android:id="@+id/certify"
+                android:layout_below="@+id/assessment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/disclaimer_ll"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/certify_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/check2"
+                android:padding="4dp"
+                android:layout_marginEnd="12dp"
+                android:background="@android:color/white"
+                android:src="@drawable/ic_check_circle_primary_color_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="16sp"
+                android:text="I understand that this assessment does not replace the advice and direct care of a medical professional and is for educational and triage purposes only"
+                android:id="@+id/disclaimer"
+                android:layout_below="@+id/assessment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:elevation="8dp"
+            android:textSize="16sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/disclaimer_ll"
+            android:textAllCaps="true"
+            android:id="@+id/begin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/small_corners_blue"
+            android:text="Begin"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "862463968172",
+    "firebase_url": "https://visual-diagnoser.firebaseio.com",
+    "project_id": "visual-diagnoser",
+    "storage_bucket": "visual-diagnoser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862463968172:android:9b5806b2a39f34b2c63009",
+        "android_client_info": {
+          "package_name": "ke.co.visualdiagnoser.besafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862463968172-6nk5f2jb7i3013sajhbaojepo38fjtsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ke.co.visualdiagnoser.besafe",
+            "certificate_hash": "612bc4ba145b9c1b2c9ed0163e1b815564b9408d"
+          }
+        },
+        {
+          "client_id": "862463968172-e37la5qf4nuaqj9l7nis8rpohno9khia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe_0BSZKhdcmFzCTCFlfM6usDDJYJC3Bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862463968172-e37la5qf4nuaqj9l7nis8rpohno9khia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

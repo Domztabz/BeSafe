@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+   android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_root"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.newHome.NewHomeFragment">
+<RelativeLayout
+    android:id="@+id/header_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:id="@+id/home_header_help"
+        android:layout_width="31dp"
+        android:layout_height="44dp"
+        android:layout_margin="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:src="@drawable/ic_help_outline_black" />
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:id="@+id/my_account"
+    android:layout_margin="8dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/vdd_blue"
+        android:layout_width="54dp"
+        android:layout_height="54dp"/>
+    <LinearLayout
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/user_name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Dominic Tabu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:text="Welcome back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
+
+<androidx.viewpager.widget.ViewPager
+    android:layout_below="@+id/my_account"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/pager"
+    android:layout_width="280dp"
+    android:layout_height="420dp"/>
+
+<com.pixelcan.inkpageindicator.InkPageIndicator
+    android:layout_below="@+id/pager"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:id="@+id/indicator"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:ipi_dotDiameter="8dp"
+    app:ipi_dotGap="8dp"
+    app:ipi_animationDuration="320"
+    app:ipi_pageIndicatorColor="@android:color/darker_gray"
+    app:ipi_currentPageIndicatorColor="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_below="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ke.co.visualdiagnoser.besafe.ui.home.view.ExternalLinkCard
+            android:elevation="16dp"
+            android:id="@+id/home_setup_complete_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/keyline_4"
+            android:background="@color/white"
+            android:minHeight="@dimen/external_link_height"
+            app:external_linkCard_content="@string/home_set_complete_external_link_share_content"
+            app:external_linkCard_icon="@drawable/ic_home_share"
+            app:external_linkCard_icon_background="@drawable/background_circular_green"
+            app:external_linkCard_icon_padding="@dimen/keyline_1"
+            app:external_linkCard_title="@string/home_set_complete_external_link_share_title" />
+
+        <View
+            android:id="@+id/home_setup_complete_share_space"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/slack_black_3"
+            app:layout_constraintTop_toBottomOf="@+id/home_setup_complete_share" />
+
+        <ke.co.visualdiagnoser.besafe.ui.home.view.ExternalLinkCard
+            android:elevation="16dp"
+            android:id="@+id/home_been_tested_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:minHeight="@dimen/external_link_height"
+            app:external_linkCard_content="@string/home_set_complete_external_link_been_contacted_content"
+            app:external_linkCard_icon="@drawable/ic_upload_icon"
+            app:external_linkCard_icon_background="@drawable/background_circular_green"
+            app:external_linkCard_icon_padding="@dimen/keyline_1"
+            app:external_linkCard_title="@string/home_set_complete_external_link_been_contacted_title" />
+
+        <TextView
+            android:id="@+id/home_version_number"
+            style="?textAppearanceBody2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/keyline_4"
+            android:layout_marginBottom="@dimen/keyline_5"
+            android:gravity="center"
+            android:textColor="@color/cadet_grey"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>
