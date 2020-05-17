@@ -40,7 +40,7 @@
 
     <color name="error">#A31919</color>
 
-    <color name="hyperlink_enabled">@color/dark_green</color>
+    <color name="hyperlink_enabled">@color/colorBlue</color>
     <color name="hyperlink_disabled">@color/slack_black_2</color>
 
     <color name="segment_selected">@color/colorPrimary</color>
