@@ -47,6 +47,7 @@ android {
                 arguments = ["room.schemaLocation":
                                      "$projectDir/schemas".toString()]
             }
+
         }
 
         buildConfigField "String", "ORG", ORG
@@ -91,6 +92,16 @@ android {
             buildConfigField "boolean", "ENABLE_DEBUG_SCREEN", "true"
             buildConfigField "String", "END_POINT_PREFIX", TEST_END_POINT_PREFIX
             buildConfigField "String", "BASE_URL", TEST_BASE_URL
+
+            buildConfigField("String",
+                    "TWILIO_ACCESS_TOKEN",
+                    "\"${getSecretProperty("TWILIO_ACCESS_TOKEN", "TWILIO_ACCESS_TOKEN")}\"")
+            buildConfigField("String",
+                    "TWILIO_ACCESS_TOKEN_SERVER",
+                    "\"${getSecretProperty("TWILIO_ACCESS_TOKEN_SERVER", "http://localhost:3000")}\"")
+            buildConfigField("boolean",
+                    "USE_TOKEN_SERVER",
+                    "${getSecretProperty("USE_TOKEN_SERVER", false)}")
 
 
             String ssid = STAGING_SERVICE_UUID
@@ -158,6 +169,9 @@ android {
     packagingOptions {
         exclude 'META-INF/atomicfu.kotlin_module'
     }
+
+// To inline the bytecode built with JVM target 1.8 into
+// bytecode that is being built with JVM target 1.6. (e.g. navArgs)
 
 }
 
@@ -228,8 +242,15 @@ dependencies {
 
     implementation "com.twilio:video-android:${versions.videoAndroid}"
     implementation "com.koushikdutta.ion:ion:${versions.ion}"
+    implementation "androidx.legacy:legacy-preference-v14:1.0.0"
+    implementation "androidx.preference:preference:1.0.0"
 
     implementation 'com.google.guava:guava:28.2-android'
+    implementation 'com.github.kizitonwose:CalendarView:0.3.4'
+
+//    //Glide
+//    implementation 'com.github.bumptech.glide:glide:4.10.0'
+//    kapt 'com.github.bumptech.glide:compiler:4.10.0'
 
     implementation "androidx.security:security-crypto:1.0.0-beta01"
     implementation "androidx.lifecycle:lifecycle-service:2.2.0"

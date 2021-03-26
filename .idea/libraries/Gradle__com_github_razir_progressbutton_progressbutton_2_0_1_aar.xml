@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef199fc08f1b9cc69cf20e870cf8ac7a/jetified-progressbutton-2.0.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef199fc08f1b9cc69cf20e870cf8ac7a/jetified-progressbutton-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef199fc08f1b9cc69cf20e870cf8ac7a/jetified-progressbutton-2.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.razir.progressbutton/progressbutton/2.0.1/dffca7cf4a05e13099c8926ba3102a8c207d13c8/progressbutton-2.0.1-javadoc.jar!/" />

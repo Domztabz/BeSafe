@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telemedicine.DoctorsDetailsFragment">
+
+    <LinearLayout
+        android:elevation="8dp"
+        android:gravity="center"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageButton
+            android:id="@+id/go_back_button"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:src="@drawable/ic_keyboard_arrow_left_green_24dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="Doctor's Profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/doctor_image"
+        android:src="@drawable/mansmiling"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="@string/hello_blank_fragment" />
+
+    <TextView
+        android:id="@+id/doctor_name"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/doctor_image"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:text="Dr Leonard Kipng'etich Tirop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/doctor_name"
+        android:text="Primary Care Physician"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

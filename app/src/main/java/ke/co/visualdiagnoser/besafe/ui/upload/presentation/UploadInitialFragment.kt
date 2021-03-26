@@ -18,7 +18,6 @@ class UploadInitialFragment : PagerChildFragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? =
             inflater.inflate(R.layout.fragment_upload_initial, container, false)
 
-
     override fun updateButtonState() {
         enableContinueButton()
     }

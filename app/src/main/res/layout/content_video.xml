@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:showIn="@layout/activity_video">
+    <LinearLayout
+        android:id="@+id/doctor_call_time_ll"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="top">
+
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:id="@+id/videoStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="Dr Dominic Tabu"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:id="@+id/call_time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/orange"
+            android:textSize="20sp"
+            android:text="15 mins"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@+id/doctor_call_time_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.twilio.video.VideoView
+            android:id="@+id/primaryVideoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+        <com.twilio.video.VideoView
+            android:id="@+id/thumbnailVideoView"
+            app:tviOverlaySurface="true"
+            app:tviMirror="true"
+            android:visibility="visible"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="16dp"
+            android:layout_gravity="top|start"/>
+    </FrameLayout>
+
+
+    <ProgressBar
+        android:id="@+id/reconnectingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

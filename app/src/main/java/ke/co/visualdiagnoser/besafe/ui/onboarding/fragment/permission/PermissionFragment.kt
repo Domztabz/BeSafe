@@ -24,7 +24,6 @@ import pub.devrel.easypermissions.EasyPermissions
 class PermissionFragment : PagerChildFragment(), EasyPermissions.PermissionCallbacks {
 
     companion object {
-
         val requiredPermissions = arrayOf(
                 Manifest.permission.BLUETOOTH,
                 Manifest.permission.BLUETOOTH_ADMIN,

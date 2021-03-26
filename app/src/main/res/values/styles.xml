@@ -32,4 +32,13 @@
         <item name="android:fontFamily">@font/font_roboto_regular</item>
     </style>
 
+    <style name="MyTheme.DayNight.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyTheme.DayNight.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="MyTheme.DayNight.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

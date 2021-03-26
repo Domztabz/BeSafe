@@ -16,6 +16,8 @@ class NotificationTemplates {
 
     companion object {
 
+
+
         fun getRunningNotification(context: Context, channel: String): Notification {
 
             val intent = Intent(context, HomeActivity::class.java)

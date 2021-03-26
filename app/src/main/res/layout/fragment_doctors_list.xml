@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".telemedicine.DoctorsListFragment">
+    <LinearLayout
+        android:elevation="8dp"
+        android:gravity="center"
+        app:title="See a Doctor"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageButton
+            android:id="@+id/go_back_button"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:src="@drawable/ic_keyboard_arrow_left_green_24dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:text="See a Doctor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <androidx.appcompat.widget.SearchView
+        android:layout_margin="8dp"
+        app:queryHint="Search a provider"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/searchview_doctors"
+        app:iconifiedByDefault="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@+id/searchview_doctors"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/filter_txtview"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/colorBlue"
+        android:drawablePadding="4dp"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_filter_list_black_24dp"
+        android:text="Filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/filter_txtview"
+        tools:listitem="@layout/item_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</RelativeLayout>

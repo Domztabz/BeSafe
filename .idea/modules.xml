@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tracer.iml" filepath="$PROJECT_DIR$/Tracer.iml" group="Tracer" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Tracer/app" />
-      <module fileurl="file://$PROJECT_DIR$/feedback-android/feedback-android.iml" filepath="$PROJECT_DIR$/feedback-android/feedback-android.iml" group="Tracer/feedback-android" />
+      <module fileurl="file://$PROJECT_DIR$/Tracer.iml" filepath="$PROJECT_DIR$/Tracer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tracer.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tracer.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/feedback-android/Tracer.feedback-android.iml" filepath="$PROJECT_DIR$/.idea/modules/feedback-android/Tracer.feedback-android.iml" />
     </modules>
   </component>
 </project>

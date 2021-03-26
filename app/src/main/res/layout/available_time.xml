@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:background="@color/colorBlue"
+        android:layout_width="4dp"
+        android:layout_height="40dp"/>
+<TextView
+    android:layout_margin="8dp"
+    android:id="@+id/available_time"
+    android:text="12:30AM - 12:55AM"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/exFiveNextMonthImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:srcCompat="@drawable/ic_keyboard_arrow_right_orange_24dp" />
+</RelativeLayout>

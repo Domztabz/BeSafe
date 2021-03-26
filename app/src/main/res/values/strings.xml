@@ -29,21 +29,20 @@
     <string name="intro_headline">Together we can stop the spread of COVID-19</string>
     <string name="intro_content">BeSafe has been developed by Visual Diagnoser to help keep the community safe from the spread of coronavirus.\n\nBeSafe will securely note contact that you have with other users of the app. This will allow you to know if you have been in close contact with someone who has tested positive to the virus and either go to quarantine or be tested.\n\nTogether we can help stop the spread and stay healthy.</string>
     <!--    <string name="intro_content">BeSafe has been developed by the Visual Diagnoser to help keep the community safe from the spread of coronavirus.\n\nBeSafe will securely note contact that you have with other users of the app. This will allow state and territory health officials to contact you, if you have been in close contact with someone who has tested positive to the virus.\n\nTogether we can help stop the spread and stay healthy.</string>-->
-    <string name="intro_disclaimer_data">Please head to <a href="https://www.australia.gov.au/">aus.gov.au</a> for the latest Coronavirus news</string>
+    <string name="intro_disclaimer_data">Please head to <a href="https://www.health.go.ke/">aus.gov.au</a> for the latest Coronavirus news</string>
     <string name="intro_button">I want to help</string>
 
     <!-- OnBoarding How it works -->
     <string name="how_it_works_headline">How BeSafe works</string>
     <string name="how_it_works_content">Bluetooth® signals are used to determine when you\'re near another BeSafe user.\n\nEvery instance of close contact between you and other BeSafe users is noted to create close contact information. The information is encrypted and only stored in your phone.\n\nIf you test positive to COVID-19 as a BeSafe user, a we will assist with voluntary upload of your close contact information to a highly secure information storage system\n\nWe can also contact you if you came in close contact with another BeSafe user who tested positive.</string>
     <string name="how_it_works_consent">Your consent will always be requested if health tracing is required.</string>
-    <string name="how_it_works_privacy">Read our <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">Privacy Notice</a></string>
-    <string name="how_it_works_terms_conditions">Read our <a href="https://www.covidsafe.gov.au/terms-and-conditions">Terms and conditions</a></string>
+    <string name="how_it_works_privacy">Read our <a href="https://www.health.go.ke/#1585137302557-b337f64d-c55873d1-981a">Privacy Notice</a></string>
+    <string name="how_it_works_terms_conditions">Read our <a href="https://www.health.go.ke/#1585137302557-b337f64d-c55873d1-981a">Terms and conditions</a></string>
     <string name="how_it_works_button">Next</string>
 
     <!-- OnBoarding Data Privcay -->
     <string name="data_privacy_headline">Registration and privacy</string>
-    <string name="data_privacy_content">It is important that you read the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> before you register for BeSafe.\n\nIf you are under 16 years of age, your parent/guardian must also read the <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a>.\n\nUse of BeSafe is completely voluntary. You can install or delete the application at any time.  To register for BeSafe, you will need to enter a name, mobile number, age range and your county.\n\nInformation you submit when you register, and information about your use of BeSafe will be collected and stored on a highly secure server.\n\nBeSafe will not collect your location information.\n\nBeSafe will note the time of contact and an anonymous ID code of other BeSafe users you come into contact with.\n\nOther BeSafe users you come into contact with will record an anonymous ID code and the time of contact with your device.\n\nIf another user tests positive to COVID-19, they may upload their contact information and we may contact you for tracing purposes.\n\nYour registration details will only be used or disclosed for contact tracing and for the proper and lawful functioning of BeSafe.\n\nSee the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> for further details about your rights about your information and how it will be handled and shared.</string>
-    <!--    <string name="data_privacy_content">It is important that you read the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> before you register for BeSafe.\n\nIf you are under 16 years of age, your parent/guardian must also read the <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a>.\n\nUse of BeSafe is completely voluntary. You can install or delete the application at any time.  To register for BeSafe, you will need to enter a name, mobile number, age range and your county.\n\nInformation you submit when you register, and information about your use of BeSafe will be collected and stored on a highly secure server.\n\nBeSafe will not collect your location information.\n\nBeSafe will note the time of contact and an anonymous ID code of other BeSafe users you come into contact with.\n\nOther BeSafe users you come into contact with will record an anonymous ID code and the time of contact with your device.\n\nIf another user tests positive to COVID-19, they may upload their contact information and a state or territory health official may contact you for tracing purposes.\n\nYour registration details will only be used or disclosed for contact tracing and for the proper and lawful functioning of BeSafe.\n\nMore information is available at the <a href="https://www.health.gov.au/">Australian Government Department of Health website</a>.\n\nSee the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> for further details about your rights about your information and how it will be handled and shared.</string>-->
+    <string name="data_privacy_content">It is important that you read the BeSafe <a href="https://www.health.go.ke/#1585137302557-b337f64d-c55873d1-981a">privacy policy</a> before you register for BeSafe.\n\nIf you are under 16 years of age, your parent/guardian must also read the <a href="https://www.health.go.ke/#1585137302557-b337f64d-c55873d1-981a">privacy policy</a>.\n\nUse of BeSafe is completely voluntary. You can install or delete the application at any time.  To register for BeSafe, you will need to enter a name, mobile number, age range and your county.\n\nInformation you submit when you register, and information about your use of BeSafe will be collected and stored on a highly secure server.\n\nBeSafe will not collect your location information.\n\nBeSafe will note the time of contact and an anonymous ID code of other BeSafe users you come into contact with.\n\nOther BeSafe users you come into contact with will record an anonymous ID code and the time of contact with your device.\n\nIf another user tests positive to COVID-19, they may upload their contact information and we may contact you for tracing purposes.\n\nYour registration details will only be used or disclosed for contact tracing and for the proper and lawful functioning of BeSafe.\n\nSee the BeSafe <a href="https://www.health.go.ke/#1585137302557-b337f64d-c55873d1-981a">privacy policy</a> for further details about your rights about your information and how it will be handled and shared.</string>
     <string name="data_privacy_button">Next</string>
 
     <!-- Onboarding Registration Consent -->
@@ -63,7 +62,7 @@
     <string name="personal_details_age_hint">Age range</string>
     <string name="personal_details_post_code">Postcode</string>
     <string name="personal_details_post_code_hint">e.g. 2000</string>
-    <string name="personal_details_disclaimer"><a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a></string>
+    <string name="personal_details_disclaimer"><a href="https://www.health.go.ke/#1585137302557-b337f64d-c55873d1-981a">privacy policy</a></string>
     <string name="personal_details_post_code_dialog_title">Postcode</string>
     <string name="invalid_post_code">Invalid postcode</string>
     <string name="invalid_age">Age cannot be empty</string>
@@ -98,7 +97,7 @@
     <string name="enter_number_headline">Enter your mobile number</string>
     <string name="invalid_phone_number">Invalid phone number.</string>
     <string name="enter_number_prefix">+254</string>
-    <string name="oz_phone_number"><a href="https://www.covidsafe.gov.au/help-topics.html#verify-mobile-number-pin">Use an Australian phone number.</a></string>
+    <string name="oz_phone_number"><a href="https://www.visualdiagnoser.co.ke/">Use a Kenyan phone number.</a></string>
     <string name="enter_number_content">We’ll send you a six-digit PIN to verify your mobile number.</string>
     <string name="enter_number_relative">Trying to register on behalf of a friend or relative?\n\nThey will need to register using their own device and phone number so that BeSafe can work for them. </string>
     <string name="enter_number_button">Get PIN</string>
@@ -109,7 +108,7 @@
     <string name="enter_pin_timer_expire">Your PIN will expire in &#160;</string>
     <string name="wrong_ping_number"> Wrong PIN entered</string>
     <string name="enter_pin_resend_pin">Resend PIN</string>
-    <string name="pin_issue"><a href="https://www.covidsafe.gov.au/help-topics.html#verify-mobile-number-pin">Issues receiving your PIN?</a></string>
+    <string name="pin_issue"><a href="https://www.visualdiagnoser.co.ke/">Issues receiving your PIN?</a></string>
     <string name="enter_pin_button">Verify</string>
 
     <!-- OnBoarding Permission -->
@@ -147,12 +146,12 @@
     <string name="home_data_has_been_uploaded_message">You\’re helping stop the spread of COVID-19 by uploading your data daily while in self-isolation.</string>
 
     <string name="home_set_complete_disclaimer_title">Let\'s stop the spread of COVID-19.</string>
-    <string name="home_set_complete_disclaimer_content">For more help, see our <a href="https://www.covidsafe.gov.au/help-topics.html">FAQ</a>.</string>
+    <string name="home_set_complete_disclaimer_content">For more help, see our <a href="https://www.visualdiagnoser.co.ke/">FAQ</a>.</string>
     <string name="home_set_complete_external_link_share_title">Share BeSafe</string>
 
-    <string name="home_set_complete_external_link_share_content">Invite others to join. Together, we’re stronger.</string>
+    <string name="home_set_complete_external_link_share_content">The more people use BeSafe, the better the app gets at stopping the spread of COVID-19. \n\nInvite others to join. Together, we’re stronger.</string>
     <string name="home_set_complete_external_link_news_title">Latest news and updates</string>
-    <string name="home_set_complete_external_link_news_url">https://www.australia.gov.au</string>
+    <string name="home_set_complete_external_link_news_url">https://www.health.go.ke/</string>
     <string name="home_set_complete_external_link_self_isolation_register_url">https://covid-form.service.gov.au</string>
     <string name="home_set_complete_external_link_news_content">Head to aus.gov.au for the latest Coronavirus news.</string>
     <string name="home_set_complete_external_link_app_title">Get the Coronavirus app</string>
@@ -166,7 +165,7 @@
 
     <string name="home_set_complete_external_link_tested_positive_content">Help your community by reporting your diagnosis. Your report will be anonymous and your identity will be protected. </string>
 
-    <string name="home_set_complete_external_link_app_url">https://www.health.gov.au/resources/apps-and-tools/coronavirus-australia-app</string>
+    <string name="home_set_complete_external_link_app_url">https://www.health.go.ke/#1585137302557-b337f64d-c55873d1-981a</string>
     <string name="home_version_number">Version Number:%s</string>
     <string name="action_report_an_issue">Report an issue</string>
 
@@ -179,7 +178,7 @@
     <string name="home_set_complete_external_link_tested_positive_content2">Only if you test positive to COVID-19 should you contact us to assist with voluntary upload of your information.\n\nOnce you press ‘Yes’ you’ll need to provide consent to upload your information. </string>
 
     <string name="upload_step_4_header">Upload consent</string>
-    <string name="upload_step_4_sub_header">Unless you consent, your close contact information will not be uploaded.\n\nIf you consent, your close contact information will be uploaded and shared with state or territory health officials for contact tracing purposes.\n\nRead the BeSafe <a href="https://www.health.gov.au/using-our-websites/privacy/privacy-notice-for-covidsafe-app">privacy policy</a> for further details.</string>
+    <string name="upload_step_4_sub_header">Unless you consent, your close contact information will not be uploaded.\n\nIf you consent, your close contact information will be uploaded and shared with state or territory health officials for contact tracing purposes.\n\nRead the BeSafe <a href="https://www.health.go.ke/#1585137302557-b337f64d-c55873d1-981a">privacy policy</a> for further details.</string>
     <string name='upload_consent'>I consent to upload my information</string>
     <string name="upload_step_verify_pin_header">Upload your information</string>
     <string name="upload_step_verify_pin_sub_header">A state or territory health official will send a PIN to your device via text message. Enter it below to upload your information.</string>
@@ -349,5 +348,36 @@
         <item>West Pokot</item>
 
     </string-array>
+    <string name="title_activity_video">VideoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!--    <string name="permissions_needed">Permission needed</string>-->
+    <!--    <string name="error_retrieving_access_token">Error retrieving access token</string>-->
+    <string name="example_3_title">Example 3</string>
+    <string name="example_3_input_dialog_title">Enter event title</string>
+    <string name="example_3_empty_input_text">Text is empty</string>
+    <string name="example_3_dialog_delete_confirmation">Delete this event?</string>
+
+
+    <string name="room_status">status</string>
+    <string name="permissions_needed">Camera and Microphone permissions needed. Please allow in App Settings for additional functionality.</string>
+    <string name="turn_speaker_on">Speaker ON</string>
+    <string name="turn_speaker_off">Speaker OFF</string>
+    <string name="error_retrieving_access_token">Error retrieving token</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings">Settings</string>
+    <string name="codec_title">Set your preferred audio and video codec. Not all codecs are supported with Group rooms. The media server will fallback to OPUS or VP8 if a preferred codec is not supported.</string>
+    <string name="pref_title_audio_codec">Audio Codec</string>
+    <string name="pref_title_video_codec">Video Codec</string>
+    <string name="sender_bandwidth_constraints">Set sender bandwidth constraints. Zero represents the WebRTC default value which varies by codec.</string>
+    <string name="max_audio_bitrate">Max Audio Bitrate (bits per second)</string>
+    <string name="max_video_bitrate">Max Video Bitrate (bits per second)</string>
+    <string name="vp8_simulcast">VP8 Simulcast</string>
 
 </resources>

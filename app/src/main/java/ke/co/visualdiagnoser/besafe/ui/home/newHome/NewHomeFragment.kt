@@ -117,8 +117,6 @@ class NewHomeFragment : BaseFragment(), EasyPermissions.PermissionCallbacks {
         }
         home_version_number.text = getString(R.string.home_version_number, BuildConfig.VERSION_NAME)
 
-
-
     }
 
 

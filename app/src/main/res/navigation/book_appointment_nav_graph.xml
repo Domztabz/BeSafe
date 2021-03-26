@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/book_appointment_nav_graph"
+    app:startDestination="@id/bookAppointmentFragment">
+
+    <fragment
+        android:id="@+id/bookAppointmentFragment"
+        android:name="ke.co.visualdiagnoser.besafe.telemedicine.BookAppointmentFragment"
+        android:label="fragment_book_appointment"
+        tools:layout="@layout/fragment_book_appointment" />
+</navigation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".telemedicine.ReasonForYourVisitFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbar"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <ImageButton
+            android:id="@+id/go_back_button"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:src="@drawable/ic_keyboard_arrow_left_green_24dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:text="What is the reason for your visit ?"
+        android:id="@+id/title"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="reason for visit"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/title"
+        android:id="@+id/reason_visit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        app:backgroundTint="@color/colorBlue"
+        android:background="@color/colorBlue"
+        android:src="@drawable/ic_keyboard_arrow_right_orange_24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/reason_visit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

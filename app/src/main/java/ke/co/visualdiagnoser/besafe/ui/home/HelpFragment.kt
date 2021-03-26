@@ -12,7 +12,6 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.core.view.isVisible
 import androidx.navigation.fragment.findNavController
-//import com.atlassian.mobilekit.module.feedback.FeedbackModule
 import kotlinx.android.synthetic.main.fragment_help.*
 import kotlinx.android.synthetic.main.fragment_help.view.*
 import ke.co.visualdiagnoser.besafe.R
@@ -33,7 +32,6 @@ class HelpFragment : BaseFragment() {
         webView.webViewClient = createWebVieClient(view)
         webView.loadUrl(HELP_URL)
         reportAnIssue.setOnClickListener {
-//            FeedbackModule.showFeedbackScreen()
         }
         toolbar.setNavigationOnClickListener { findNavController().popBackStack() }
     }

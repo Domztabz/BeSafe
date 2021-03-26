@@ -132,8 +132,8 @@
 
         <ImageView
             android:id="@+id/enter_number_relative_icon"
-            android:layout_width="@dimen/icon_size"
-            android:layout_height="@dimen/icon_size"
+            android:layout_width="19dp"
+            android:layout_height="20dp"
             android:layout_marginStart="@dimen/keyline_4"
             android:src="@drawable/ic_info"
             app:layout_constraintStart_toStartOf="@+id/enter_number_relativebackground"

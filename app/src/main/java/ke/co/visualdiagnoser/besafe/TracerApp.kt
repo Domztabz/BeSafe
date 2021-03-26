@@ -3,7 +3,7 @@ package ke.co.visualdiagnoser.besafe
 import android.app.Application
 import android.content.Context
 import android.os.Build
-//import com.atlassian.mobilekit.module.feedback.FeedbackModule
+import com.jakewharton.threetenabp.AndroidThreeTen
 
 import ke.co.visualdiagnoser.besafe.logging.CentralLog
 import ke.co.visualdiagnoser.besafe.services.BluetoothMonitoringService
@@ -15,6 +15,8 @@ class TracerApp : Application() {
     override fun onCreate() {
         super.onCreate()
         AppContext = applicationContext
+        AndroidThreeTen.init(this)
+
 //        FeedbackModule.init(this)
     }
 
