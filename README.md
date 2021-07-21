@@ -1,2 +1,2 @@
 # BeSafe
-COVID - 19 Contact trafing app using BlueTooth Low Energy
+COVID - 19 Contact tracing app using BlueTooth Low Energy
